@@ -1,0 +1,31 @@
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%
+}
+
+.header_center{
+    display: flex;
+}
+
+.header_center > img{
+    object-fit: contain;
+    height: 40px;
+}
+
+.header_center > h1{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header_right > button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
