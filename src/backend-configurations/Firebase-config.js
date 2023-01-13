@@ -5,13 +5,7 @@ import {getFirestore, doc, getDoc, setDoc} from 'firebase/firestore'
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCBrKBQ6jV2Awq-PPt-PFO37ZESdvUwCaY",
-    authDomain: "college-marketplace-v2.firebaseapp.com",
-    projectId: "college-marketplace-v2",
-    storageBucket: "college-marketplace-v2.appspot.com",
-    messagingSenderId: "835196046741",
-    appId: "1:835196046741:web:be786d9941bc4c5283ba9c",
-    measurementId: "G-RRXC7N8GHL"
+
 };
 
 const app = initializeApp(firebaseConfig);
